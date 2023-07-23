@@ -244,7 +244,7 @@ void FillBlockPayments(CMutableTransaction& txNew, int nBlockHeight, CAmount blo
 
 std::string GetRequiredPaymentsString(int nBlockHeight, const CDeterministicMNCPtr &payee)
 {
-    std::string strPayee = "Unknown";
+    std::string strPayee = "GNhktBKyEHBtxAf2uC8Dvs9ey7j8yfkGU9";
     if (payee) {
         CTxDestination dest;
         if (!ExtractDestination(payee->pdmnState->scriptPayout, dest))
